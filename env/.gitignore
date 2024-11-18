@@ -1,0 +1,27 @@
+# Ignoriere alle Dateien im env-Ordner
+env/*
+
+# Erlaube spezifische Dateien und Ordner
+!env/mysite/
+!env/requirements.txt
+!env/.gitignore
+!env/pyvenv.cfg
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# IDEs und Editor-spezifische Dateien
+.vscode/
+.idea/
+*.swp
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Log-Dateien
+*.log
+
+# Umgebungsvariablen (falls vorhanden)
+.env
