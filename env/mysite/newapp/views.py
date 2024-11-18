@@ -15,4 +15,4 @@ def movie_list(request):
     page = request.GET.get('page')
     movie_objects = paginator.get_page(page)
     
-    return render(request,'newapp/movie_list.html',{'movie_objects':movie_objects})
+    return render(request,'index.html',{'movie_objects':movie_objects})
